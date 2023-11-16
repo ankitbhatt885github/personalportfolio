@@ -1,11 +1,13 @@
 import React from "react";
 
  
-import passGen from "../assets/Password Generator.png";
+ 
 import pomo from "../assets/Pomodoro app.png";
-import portf from "../assets/Portfolio.png";
+ 
 import quizApp from "../assets/Quiz App.png";
 import weatherApp from "../assets/Weather App.png";
+import portf from "../assets/personalport.png";
+import speechToText from "../assets/speechtotxt.png"
  
 
 
@@ -33,16 +35,19 @@ const Portfolio = () => {
             demo: "https://whats-the-weather-nine.vercel.app/",
             code: "https://github.com/ankitbhatt885github/WhatsTheWeather",
           },
+          //speech to text app
           {
             id: 4,
             src: speechToText,
-            demo: "hhttps://speechtotext-tau.vercel.app/",
+            demo: "https://speechtotext-tau.vercel.app/",
             code: "https://github.com/ankitbhatt885github/SpeakToGetText",
           },
+
+          //portfolio app
           {
             id: 5,
             src: portf,
-            demo: "https://whats-my-weather-app.netlify.app",
+            demo: "",
             code: "https://github.com/ankitbhatt885github/personalportfolio",
           },
           
