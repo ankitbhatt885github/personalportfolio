@@ -17,27 +17,27 @@ const Portfolio = () => {
         //We can also copy paste code for 6 separate cards or do like this
         {
             id: 1,
-            src: passGen,
-            demo: "https://password-generatorsite.netlify.app",
-            code: "https://github.com/ankitbhatt-885/password_generator",
+            src: quizApp,
+            demo: "https://multi-category-quiz-app.vercel.app/",
+            code: "https://github.com/ankitbhatt885github/MultiCategoryQuizApp",
           },
           {
             id: 2,
             src: pomo,
-            demo: "https://multi-level-quiz.netlify.app",
-            code: "https://github.com/ankitbhatt-885/MultiLevelQuizApp",
+            demo: "https://pomodoroapp-roan.vercel.app/",
+            code: "https://github.com/ankitbhatt885github/pomodoroapp",
           },
           {
             id: 3,
-            src: portf,
-            demo: "https://multi-level-quiz.netlify.app",
-            code: "https://github.com/ankitbhatt-885/MultiLevelQuizApp",
+            src: weatherApp,
+            demo: "https://whats-the-weather-nine.vercel.app/",
+            code: "https://github.com/ankitbhatt885github/WhatsTheWeather",
           },
           {
             id: 4,
-            src: quizApp,
-            demo: "https://multi-level-quiz.netlify.app",
-            code: "https://github.com/ankitbhatt-885/MultiLevelQuizApp",
+            src: speechToText,
+            demo: "hhttps://speechtotext-tau.vercel.app/",
+            code: "https://github.com/ankitbhatt885github/SpeakToGetText",
           },
           {
             id: 5,
