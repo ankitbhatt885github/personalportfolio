@@ -41,9 +41,9 @@ const Portfolio = () => {
           },
           {
             id: 5,
-            src: weatherApp,
+            src: portf,
             demo: "https://whats-my-weather-app.netlify.app",
-            code: "https://github.com/ankitbhatt-885/whats_my_weather",
+            code: "https://github.com/ankitbhatt885github/personalportfolio",
           },
           
     ];
