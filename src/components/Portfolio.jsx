@@ -8,6 +8,7 @@ import quizApp from "../assets/Quiz App.png";
 import weatherApp from "../assets/Weather App.png";
 import portf from "../assets/personalport.png";
 import speechToText from "../assets/speechtotxt.png"
+import foodie from "../assets/Foodie-App.png"
  
 
 
@@ -18,11 +19,11 @@ const Portfolio = () => {
         //we are referencing the images here so that we can loop over them.
         //We can also copy paste code for 6 separate cards or do like this
         {
-            id: 1,
-            src: quizApp,
-            demo: "https://multi-category-quiz-app.vercel.app/",
-            code: "https://github.com/ankitbhatt885github/MultiCategoryQuizApp",
-          },
+          id: 1,
+          src: foodie,
+          demo: "https://foodie-foodapp.vercel.app/",
+          code: "https://github.com/ankitbhatt885github/foodie-foodapp",
+        },
           {
             id: 2,
             src: pomo,
@@ -50,6 +51,13 @@ const Portfolio = () => {
             demo: "",
             code: "https://github.com/ankitbhatt885github/personalportfolio",
           },
+          
+          {
+            id: 6,
+            src: quizApp,
+            demo: "https://multi-category-quiz-app.vercel.app/",
+            code: "https://github.com/ankitbhatt885github/MultiCategoryQuizApp",
+          }
           
     ];
     return (

@@ -7,9 +7,10 @@ import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
 import reactImage from "../assets/react.png";
  
-import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
-
+import idea from "../assets/idea.png"
+import java from "../assets/java.png"
+import seo from "../assets/seo.png"
 
 const Experience = () => {
 
@@ -47,14 +48,24 @@ const Experience = () => {
           src: tailwind,
           title: "Tailwind",
           style: "shadow-sky-400",
-        },
-         
-         
+        }, 
         {
-          id: 6,
-          src: github,
-          title: "GitHub",
+          id: 7,
+          src: idea,
+          title: "Problem Solving",
           style: "shadow-gray-400",
+        },
+        {
+          id: 8,
+          src: java,
+          title: "Java",
+          style: "shadow-orange-500",
+        },
+        {
+          id: 9,
+          src: seo,
+          title: "SEO",
+          style: "shadow-sky-400",
         },
       ];
 
