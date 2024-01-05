@@ -15,6 +15,8 @@ import seo from "../assets/seo.png"
 const Experience = () => {
 
     //Instead of making 6 caards we can make array of data and directly loop it using these variables inside the Array
+
+    //contains all experience details
     const techs = [
 
         //src will have the image name
