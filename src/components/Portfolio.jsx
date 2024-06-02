@@ -9,6 +9,7 @@ import weatherApp from "../assets/Weather App.png";
 import portf from "../assets/personalport.png";
 import speechToText from "../assets/speechtotxt.png"
 import foodie from "../assets/Foodie-App.png"
+import propertyzoneImg from "../assets/PropertyZone-img.png"
  
 
 
@@ -36,15 +37,15 @@ const Portfolio = () => {
             demo: "https://whats-the-weather-nine.vercel.app/",
             code: "https://github.com/ankitbhatt885github/WhatsTheWeather",
           },
-          //speech to text app
+          //speech to text app 
           {
             id: 4,
-            src: speechToText,
-            demo: "https://speechtotext-tau.vercel.app/",
-            code: "https://github.com/ankitbhatt885github/SpeakToGetText",
+            src: propertyzoneImg,
+            demo: "https://propertyzone.onrender.com",
+            code: "https://github.com/ankitbhatt885github/propertyzone",
           },
 
-          //portfolio app
+          //portfolio app src and demo
           {
             id: 5,
             src: portf,
