@@ -17,7 +17,7 @@ const Home = () => {
                 <div className="flex flex-col justify-center h-full">
 
 
-                <h2 className="text-4xl sm:text-7xl font-bold text-white">Hi! I'm Ankit. A FrontEnd Developer based in India.</h2>
+                <h2 className="text-4xl sm:text-7xl font-bold text-white">Hi! I'm Ankit. A Software Developer based in India.</h2>
                 <p className="text-gray-500 py-4 max-w-md">Software development enthusiast with interest in Problem Solving.</p>
 
                 <div>

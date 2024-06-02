@@ -11,6 +11,9 @@ import tailwind from "../assets/tailwind.png";
 import idea from "../assets/idea.png"
 import java from "../assets/java.png"
 import seo from "../assets/seo.png"
+import mongodbImg from "../assets/mongo-db.png"
+import expressImg from "../assets/express-icon.png"
+import nodeImg from "../assets/nodejs-img.png"
 
 const Experience = () => {
 
@@ -67,6 +70,24 @@ const Experience = () => {
           id: 9,
           src: seo,
           title: "SEO",
+          style: "shadow-sky-400",
+        },
+        {
+          id: 10,
+          src: mongodbImg,
+          title: "MongoDB",
+          style: "shadow-sky-400",
+        },
+        {
+          id: 11,
+          src: expressImg,
+          title: "Express.js",
+          style: "shadow-sky-400",
+        },
+        {
+          id: 12,
+          src: nodeImg,
+          title: "Node.js",
           style: "shadow-sky-400",
         },
       ];
