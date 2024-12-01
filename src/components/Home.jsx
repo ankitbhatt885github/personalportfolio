@@ -2,6 +2,7 @@ import React from "react";
 
 import HeroImage from "../assets/HeroImage.jpg"
 import MainImage from "../assets/Main_Image.png"
+import { motion } from 'framer-motion';
 
 import { MdOutlineKeyboardArrowRight } from 'react-icons/md'
 
@@ -17,23 +18,68 @@ const Home = () => {
                 <div className="flex flex-col justify-center h-full">
 
 
-                <h2 className="text-4xl sm:text-7xl font-bold text-white">Hi! I'm Ankit. A Software Developer based in India.</h2>
-                <p className="text-gray-500 py-4 max-w-md">Software development enthusiast with interest in Problem Solving.</p>
+                <motion.h2
+        className="text-4xl sm:text-7xl font-bold text-white"
+        initial={{ opacity: 0, y: 50 }} // Entrance animation: start hidden and slide up
+        animate={{ opacity: 1, y: 0 }} // End state: visible and at normal position
+        transition={{ duration: 1, ease: 'easeOut' }} // Duration and easing for entrance
+        whileInView={{ scale: 1.05 }} // Permanent animation: slight zoom-in effect
+        viewport={{ once: true }} // Only trigger entrance animation once
+      >
+        Hi! I'm Ankit. A Software Developer based in India.
+      </motion.h2>
+      <motion.p
+        className="text-gray-400 py-4 max-w-md"
+        initial={{ opacity: 0, x: -50 }} // Entrance animation: start hidden and slide from left
+        animate={{ opacity: 1, x: 0 }} // End state: fully visible at normal position
+        transition={{ duration: 1, ease: 'easeOut', delay: 0.3 }} // Duration, easing, and delay for entrance
+        whileInView={{ x: [0, 10, -10, 0], opacity: [1, 0.7, 1] }} // Permanent animation: bounce effect with opacity
+        viewport={{ once: true }} // Only trigger entrance animation once
+      >
+        Software development enthusiast with interest in Problem Solving.
+      </motion.p>
 
-                <div>
+      <motion.div
+  initial={{ opacity: 0, y: 20 }} // Initial state: slightly faded and below
+  animate={{ opacity: 1, y: 0 }} // End state: fully visible and at normal position
+  transition={{ duration: 1, ease: 'easeOut' }} // Duration and easing for the entrance
+>
+  <div className="flex space-x-4 items-center"> {/* Flex container for horizontal alignment */}
+    
+    {/* Portfolio Button */}
+    <Link
+      to="portfolio"
+      smooth
+      duration={500}
+      className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-cyan-600"
+    >
+      Portfolio
+      <span className="group-hover:rotate-90 duration-300">
+        <MdOutlineKeyboardArrowRight size={25} className="ml-1" />
+      </span>
+    </Link>
 
-                    {/* gradient color goes from cyan to blue  */}
-                    <Link to="portfolio" smooth duration={500} className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-cyan-600   ">
-                        Portfolio
+    {/* Download Resume Button */}
+    <a
+      href="/Resume_Ankit_2024.pdf" // Path to your PDF file in the public folder
+      download="Ankit_Resume.pdf" // Default name for the downloaded file
+      className="inline-flex items-center px-6 py-3 font-semibold text-white bg-cyan-600 hover:bg-cyan-700 rounded-md shadow-lg transition-transform transform hover:scale-105"
+    >
+      <span>Download Resume</span>
+    </a>
 
-                        <span className="group-hover:rotate-90 duration-300">
+  </div>
+</motion.div>
 
-                            <MdOutlineKeyboardArrowRight size={25} className="ml-1"/>
-
-                        </span>
-
-                    </Link>
-                </div>
+    {/* <div className="flex justify-center items-center">
+      <a
+        href="/resume.pdf" // Path to your PDF file in the public folder
+        download="Ankit_Resume.pdf" // Default name for the downloaded file
+        className="inline-flex items-center px-6 py-3 mt-4 font-semibold text-white bg-cyan-600 hover:bg-cyan-700 rounded-md shadow-lg transition-transform transform hover:scale-105"
+      >
+        <span>Download My Resume</span>
+      </a>
+    </div> */}
                 </div>
                
                 <div>

@@ -10,7 +10,8 @@ import portf from "../assets/personalport.png";
 import speechToText from "../assets/speechtotxt.png"
 import foodie from "../assets/Foodie-App.png"
 import propertyzoneImg from "../assets/PropertyZone-img.png"
-
+import uploaditImg from "../assets/Upload_it.png"
+import qrEasyImg from "../assets/Qr_easy.png"
 
 
 const Portfolio = () => {
@@ -21,48 +22,63 @@ const Portfolio = () => {
     //We can also copy paste code for 6 separate cards or do like this
     {
       id: 1,
-      src: foodie,
-      demo: "https://foodie-foodapp.vercel.app/",
-      code: "https://github.com/ankitbhatt885github/foodie-foodapp",
+      src: uploaditImg,
+      demo: "https://uploadit-lilac.vercel.app/sign-in",
+      code: "https://github.com/ankitbhatt885github/uploadit",
     },
     {
       id: 2,
-      src: pomo,
-      demo: "https://pomodoroapp-roan.vercel.app/",
-      code: "https://github.com/ankitbhatt885github/pomodoroapp",
-    },
-    {
-      id: 3,
-      src: weatherApp,
-      demo: "https://whats-the-weather-nine.vercel.app/",
-      code: "https://github.com/ankitbhatt885github/WhatsTheWeather",
-    },
-    //speech to text app 
-    {
-      id: 4,
       src: propertyzoneImg,
       demo: "https://propertyzone.onrender.com",
       code: "https://github.com/ankitbhatt885github/propertyzone",
     },
-
-    //portfolio app src and demo
+    {
+      id: 3,
+      src: qrEasyImg,
+      demo: "https://qreasy.vercel.app/",
+      code: "https://github.com/ankitbhatt885github/qreasy",
+    },
+    {
+      id: 4,
+      src: foodie,
+      demo: "https://foodie-foodapp.vercel.app/",
+      code: "https://github.com/ankitbhatt885github/foodie-foodapp",
+    },
+    
     {
       id: 5,
       src: portf,
       demo: "",
       code: "https://github.com/ankitbhatt885github/personalportfolio",
     },
-
     {
       id: 6,
       src: quizApp,
       demo: "https://multi-category-quiz-app.vercel.app/",
       code: "https://github.com/ankitbhatt885github/MultiCategoryQuizApp",
-    }
+    },
+   
+    {
+      id: 7,
+      src: pomo,
+      demo: "https://pomodoroapp-roan.vercel.app/",
+      code: "https://github.com/ankitbhatt885github/pomodoroapp",
+    },
+
+
+    
+    {
+      id: 8,
+      src: weatherApp,
+      demo: "https://whats-the-weather-nine.vercel.app/",
+      code: "https://github.com/ankitbhatt885github/WhatsTheWeather",
+    },
+  
+    
 
   ];
   return (
-    <div name="portfolio" className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen">
+    <div name="portfolio" className="bg-gradient-to-b from-black to-gray-800 w-full text-white h-full ">
 
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">

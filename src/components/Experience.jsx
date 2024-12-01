@@ -14,6 +14,9 @@ import seo from "../assets/seo.png"
 import mongodbImg from "../assets/mongo-db.png"
 import expressImg from "../assets/express-icon.png"
 import nodeImg from "../assets/nodejs-img.png"
+import typescImg from "../assets/typescript_icon.png"
+import nextjsImg from "../assets/nextjs-icon.png"
+
 
 const Experience = () => {
 
@@ -56,33 +59,48 @@ const Experience = () => {
         }, 
         {
           id: 6,
-          src: idea,
-          title: "Problem Solving",
-          style: "shadow-gray-400",
-        },
+          src: typescImg,
+          title: "TypeScript",
+          style: "shadow-sky-400",
+        } , 
         {
           id: 7,
-          src: mongodbImg,
-          title: "MongoDB",
-          style: "shadow-sky-400",
-        },
+          src: nextjsImg,
+          title: "Next.js",
+          style: "shadow-gray-500",
+        } ,
+        
+       
         {
           id: 8,
           src: expressImg,
           title: "Express.js",
-          style: "shadow-sky-400",
+          style: "shadow-gray-500",
         },
         {
           id: 9,
           src: nodeImg,
           title: "Node.js",
-          style: "shadow-sky-400",
+          style: "shadow-green-300",
         },
+        {
+          id: 10,
+          src: idea,
+          title: "Problem Solving",
+          style: "shadow-gray-400",
+        },
+        {
+          id: 11,
+          src: mongodbImg,
+          title: "MongoDB",
+          style: "shadow-green-300",
+        },
+
       ];
 
 
     return (
-        <div name='experience' className="bg-cyan-950 w-full h-screen">
+        <div name='experience' className="bg-cyan-950 w-full h-full pt-10 md:pt-0">
 
             <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
                 <div>

@@ -39,7 +39,8 @@ const NavBar = () => {
             {/* fixed class fixes navbar on top  */}
 
             <div>
-                <h1 className="text-5xl italic font-['Open_Sans'] ml-2 text-cyan-600">Ankit</h1>
+            <h1 className="text-4xl font-bold text-cyan-700 tracking-tight leading-tight shadow-lg transform hover:scale-105 transition-transform duration-300 ease-in-out ml-2">Ankit Bhatt</h1>
+
             </div>
 
             {/* Tailwind is mobile first so in mobile links should be hidden than we open it in desktop  */}
