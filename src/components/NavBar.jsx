@@ -39,7 +39,7 @@ const NavBar = () => {
             {/* fixed class fixes navbar on top  */}
 
             <div>
-            <h1 className="text-4xl font-bold text-slate-400 tracking-tight leading-tight shadow-lg transform hover:scale-105 transition-transform duration-300 ease-in-out ml-2">Ankit Bhatt</h1>
+            <h1 className="text-3xl font-bold text-slate-400 tracking-tight leading-tight shadow-lg transform hover:scale-105 transition-transform duration-300 ease-in-out ml-2">Ankit Bhatt</h1>
 
             </div>
 
