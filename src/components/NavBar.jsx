@@ -34,12 +34,12 @@ const NavBar = () => {
       ];
     return (
 
-        <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed z-40">
+        <div className="flex justify-between items-center w-full h-20 px-4 text-white sticky top-0 z-50 border-b backdrop-blur-lg border-blue-300">
 
             {/* fixed class fixes navbar on top  */}
 
             <div>
-            <h1 className="text-4xl font-bold text-slate-400 tracking-tight leading-tight shadow-lg transform hover:scale-105 transition-transform duration-300 ease-in-out ml-2">Ankit Bhatt</h1>
+            <h1 className="text-3xl font-bold text-white tracking-tight leading-tight shadow-lg transform  ml-2">Ankit <span className="bg-gradient-to-r from-blue-400 to-blue-700 text-transparent bg-clip-text">Bhatt</span></h1>
 
             </div>
 
@@ -50,7 +50,7 @@ const NavBar = () => {
             {links.map(({ id, link }) => (
           <li
             key={id}
-            className="px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 hover:text-cyan-500 duration-200"
+            className="px-4 cursor-pointer capitalize font-medium text-white hover:scale-105 hover:text-blue-400 duration-200"
           >
 
             {/* Link is the attribute for smooth scroll  */}
@@ -71,14 +71,14 @@ const NavBar = () => {
             {/* if nav is true then only show the list items  */}
             {/* It is specially for mobile screens */}
             {nav && (
-        <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-gray-800 text-gray-500">
+        <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-gray-800 text-white">
           {links.map(({ id, link }) => (
             <li
               key={id}
-              className="px-4 cursor-pointer capitalize py-6 text-4xl"
+              className="px-4 cursor-pointer capitalize py-4 text-3xl"
             >
 
-                {/* Once we click on any link in Hamburger mention we smoothly scroll and close the Menu also  */}
+               
               <Link
                 onClick={() => setNav(!nav)}
                 to={link}

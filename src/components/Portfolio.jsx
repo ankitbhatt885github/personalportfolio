@@ -44,7 +44,7 @@ const Portfolio = () => {
       demo: "https://foodie-foodapp.vercel.app/",
       code: "https://github.com/ankitbhatt885github/foodie-foodapp",
     },
-    
+
     {
       id: 5,
       src: portf,
@@ -57,7 +57,7 @@ const Portfolio = () => {
       demo: "https://multi-category-quiz-app.vercel.app/",
       code: "https://github.com/ankitbhatt885github/MultiCategoryQuizApp",
     },
-   
+
     {
       id: 7,
       src: pomo,
@@ -66,24 +66,31 @@ const Portfolio = () => {
     },
 
 
-    
+
     {
       id: 8,
       src: weatherApp,
       demo: "https://whats-the-weather-nine.vercel.app/",
       code: "https://github.com/ankitbhatt885github/WhatsTheWeather",
     },
-  
-    
+
+
 
   ];
   return (
-    <div name="portfolio" className="bg-gradient-to-b from-black to-gray-800 w-full text-white h-full ">
+    <div name="portfolio" className="  w-full text-white h-full mb-10 lg:mb-40 ">
 
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-gray-500">Portfolio</p>
-          <p className="py-6">Check out some of my Personal Projects</p>
+          <div className="text-center">
+            <span className='  text-white px-2 py-2 text-3xl font-medium border-b border-blue-500'>PORTFOLIO</span>
+          </div>
+          <div className="text-center mb-10">
+
+            <h2 className='text-3xl lg:text-4xl mt-10 '>Check out some of my Personal Projects  </h2>
+
+          </div>
+
         </div>
 
 
