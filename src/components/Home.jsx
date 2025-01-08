@@ -44,7 +44,7 @@ const Home = () => {
             animate={{ opacity: 1, y: 0 }} // End state: fully visible and at normal position
             transition={{ duration: 1, ease: 'easeOut' }} // Duration and easing for the entrance
           >
-            <div className="flex space-x-4 items-center"> {/* Flex container for horizontal alignment */}
+            <div className="flex space-x-4 items-center justify-around lg:justify-normal "> {/* Flex container for horizontal alignment */}
 
               {/* Portfolio Button */}
               <Link
