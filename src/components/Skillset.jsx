@@ -7,7 +7,7 @@ const Skillset = () => {
 
 
 
-        <div name="skillset" className="w-full h-screen   text-white   md:pt-0">
+        <div name="skillset" className="w-full mt-24  text-white   md:pt-0">
             <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
                 <div className="pb-8">
                     <div className="text-center">

@@ -7,7 +7,7 @@ const About = () => {
 
 
 
-    <div name="about" className="w-full h-screen text-white  ">
+    <div name="about" className="w-full text-white mt-24 ">
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full ">
         <div className="pb-8">
         <div className="text-center">
