@@ -34,7 +34,7 @@ const NavBar = () => {
       ];
     return (
 
-        <div className="flex justify-between items-center w-full h-20 px-4 text-white sticky top-0 z-50 border-b backdrop-blur-lg border-blue-300">
+        <div className="flex justify-between items-center w-full h-20 px-4 text-white sticky top-0 z-50 border-b backdrop-blur-lg border-blue-300 shadow-lg shadow-blue-600/70">
 
             {/* fixed class fixes navbar on top  */}
 

@@ -18,7 +18,7 @@ const Contact = () => {
                 </div>
 
                 <div className=" flex justify-center items-center">
-                    <form action="https://getform.io/f/eaadf469-edec-40c4-a36b-bbb30ac622b5" method="POST" className="flex flex-col w-full md:w-1/2">
+                    <form action="https://getform.io/f/eaadf469-edec-40c4-a36b-bbb30ac622b5" method="POST" className="flex flex-col gap-4 w-full md:w-1/2">
                         <input type="text" name="name" placeholder="Enter Your Name" className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none" />
 
                         <input type="text" name="email" placeholder="Enter Your Email" className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none" />

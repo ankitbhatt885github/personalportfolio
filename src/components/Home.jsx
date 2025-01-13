@@ -1,6 +1,4 @@
 import React from "react";
-
-import HeroImage from "../assets/HeroImage.jpg"
 import MainImage from "../assets/Main_Image.png"
 import { motion } from 'framer-motion';
 
@@ -77,7 +75,7 @@ const Home = () => {
         <div>
 
           {/* For mobile it is small width else for desktop the width is full  */}
-          <img src={MainImage} alt="my profile" className=" mt-8 mx-auto w-2/3 pb-4 md:w-full lg:pb-24" />
+          <img src={MainImage} alt="my profile" className="  mt-8 mx-auto w-2/3 pb-4 md:w-full lg:pb-24" />
         </div>
       </div>
 
