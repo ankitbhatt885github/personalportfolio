@@ -11,7 +11,7 @@ const Contact = () => {
                     </div>
                     <div className="text-center mb-10">
 
-                        <h2 className='text-3xl lg:text-3xl mt-10 '>Submit the form below to get in touch with me</h2>
+                        <h2 className='text-3xl lg:text-3xl mt-10 '>Submit the form below to reach out to me!</h2>
 
                     </div>
 
@@ -25,7 +25,7 @@ const Contact = () => {
 
                         <textarea name="message" placeholder="Enter Your Message" rows="10" className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none "></textarea>
 
-                        <button className="text-white  bg-blue-600 px-6 py-3  mt-8 mx-auto flex items-center rounded-md hover:scale-110 hover:bg-blue-700 duration-300">Let's Talk</button>
+                        <button className="text-white  bg-blue-600 px-6 py-3  mt-8 mx-auto flex items-center rounded-md hover:scale-110 hover:bg-blue-700 duration-300">Submit</button>
                     </form>
                 </div>
             </div>
