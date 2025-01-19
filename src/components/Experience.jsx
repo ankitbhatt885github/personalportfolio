@@ -1,15 +1,10 @@
 import React from "react";
-
-
-//import the images
 import html from "../assets/html.png";
 import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
 import reactImage from "../assets/react.png";
-
 import tailwind from "../assets/tailwind.png";
 import idea from "../assets/idea.png"
-import java from "../assets/java.png"
 import seo from "../assets/seo.png"
 import mongodbImg from "../assets/mongo-db.png"
 import expressImg from "../assets/express-icon.png"
@@ -20,13 +15,10 @@ import nextjsImg from "../assets/nextjs-icon.png"
 
 const Experience = () => {
 
-  //Instead of making 6 caards we can make array of data and directly loop it using these variables inside the Array
 
-  //contains all experience details
   const techs = [
 
-    //src will have the image name
-    //style to give it a shadow of respective color
+
     {
       id: 1,
       src: html,
@@ -49,7 +41,7 @@ const Experience = () => {
       id: 4,
       src: reactImage,
       title: "React",
-      style: "shadow-blue-600",
+      style: "shadow-sky-400",
     },
     {
       id: 5,
@@ -61,7 +53,7 @@ const Experience = () => {
       id: 6,
       src: typescImg,
       title: "TypeScript",
-      style: "shadow-sky-400",
+      style: "shadow-blue-500",
     },
     {
       id: 7,
@@ -110,11 +102,11 @@ const Experience = () => {
 
           <div className="text-center mb-10">
 
-<h2 className='text-3xl lg:text-3xl mt-10 '>The following are the technologies I have experience in: </h2>
+            <h2 className='text-3xl lg:text-3xl mt-10 '>The following are the technologies I have experience in: </h2>
 
-</div>
+          </div>
 
-          
+
           <div>
 
 
