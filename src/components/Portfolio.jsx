@@ -1,77 +1,74 @@
 import React from "react";
-
-
-
-import pomo from "../assets/Pomodoro app.png";
-
-import quizApp from "../assets/Quiz App.png";
-import weatherApp from "../assets/Weather App.png";
-import portf from "../assets/personalport.png";
-import speechToText from "../assets/speechtotxt.png"
-import foodie from "../assets/Foodie-App.png"
-import propertyzoneImg from "../assets/PropertyZone-img.png"
-import uploaditImg from "../assets/Upload_it.png"
-import qrEasyImg from "../assets/Qr_easy.png"
+import screenLap from '../assets/laptop-code.jpg'
+import codeScreen from "../assets/code-screen.jpg"
 
 
 const Portfolio = () => {
 
   const portfolios = [
 
-    
+
     {
       id: 1,
-      src: uploaditImg,
+      title: 'Personal Portfolio',
+      src: screenLap,
+      demo: "",
+      code: "https://github.com/ankitbhatt885github/personalportfolio",
+      skills: ['Reactjs', 'TailwindCSS', 'JavaScript'],
+    },
+    {
+      id: 5,
+      title: 'UploadIt',
+      src: codeScreen,
       demo: "https://uploadit-lilac.vercel.app/sign-in",
       code: "https://github.com/ankitbhatt885github/uploadit",
+      skills: ['Reactjs', 'Nextjs', 'Appwrite', 'TypeScript'],
     },
     {
       id: 2,
-      src: propertyzoneImg,
+      title: 'Property Zone',
+      src: screenLap,
       demo: "https://propertyzone.onrender.com",
       code: "https://github.com/ankitbhatt885github/propertyzone",
+      skills: ['Reactjs', 'Nodejs', 'Express', 'MongoDB', 'JavaScript'],
     },
     {
       id: 3,
-      src: qrEasyImg,
+      title: 'QREasy',
+      src: codeScreen,
+
       demo: "https://qreasy.vercel.app/",
       code: "https://github.com/ankitbhatt885github/qreasy",
+      skills: ['Reactjs', 'Nextjs', 'TypeScript'],
     },
     {
       id: 4,
-      src: foodie,
+      title: 'Foodie App',
+      src: screenLap,
       demo: "https://foodie-foodapp.vercel.app/",
       code: "https://github.com/ankitbhatt885github/foodie-foodapp",
+      skills: ['Reactjs', 'Redux', 'JavaScript'],
     },
 
-    {
-      id: 5,
-      src: portf,
-      demo: "",
-      code: "https://github.com/ankitbhatt885github/personalportfolio",
-    },
+
     {
       id: 6,
-      src: quizApp,
+      title: 'Multi Category Quiz App',
+      src: codeScreen,
       demo: "https://multi-category-quiz-app.vercel.app/",
       code: "https://github.com/ankitbhatt885github/MultiCategoryQuizApp",
+      skills: ['Reactjs', 'API Integration', 'JavaScript'],
     },
-
     {
       id: 7,
-      src: pomo,
-      demo: "https://pomodoroapp-roan.vercel.app/",
-      code: "https://github.com/ankitbhatt885github/pomodoroapp",
+      title: 'InsightZone',
+      src: screenLap,
+      demo: "https://insightzone.vercel.app/",
+      code: "https://github.com/ankitbhatt885github/insightzone",
+      skills: ['Reactjs', 'Recharts', 'JavaScript'],
     },
 
 
-
-    {
-      id: 8,
-      src: weatherApp,
-      demo: "https://whats-the-weather-nine.vercel.app/",
-      code: "https://github.com/ankitbhatt885github/WhatsTheWeather",
-    },
 
 
 
@@ -94,23 +91,40 @@ const Portfolio = () => {
 
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src, demo, code }) => (
-            <div key={id} className="shadow-md shadow-sky-400 rounded-lg duration-200 hover:scale-105">
+          {portfolios.map(({ id, title, src, demo, code, skills }) => (
+            <div key={id} className="shadow-md shadow-sky-400 rounded-lg duration-200 hover:shadow-blue-500 bg-white overflow-hidden transform hover:shadow-xl">
               <img
                 src={src}
                 alt=""
-                className="rounded-md "
+                className="w-full p-2 h-56 object-cover rounded-t-lg"
               />
-              <div className="flex items-center justify-center">
-                <button className="w-1/2 px-6 py-3 m-4 ">
-                  <a href={demo} target="_blank" >Preview</a>
-                </button>
-                <button className="w-1/2 px-6 py-3 m-4 ">
-                  <a href={code} target="_blank">Code</a>
-                </button>
+              <p className="text-lg pl-6 text-blue-600 font-medium px-3 py-1  ">{title}</p>
+              <div className="p-6 pt-3">
+                <div className="flex items-center justify-center space-x-4 mb-4">
+
+                  <button className="w-1/2 px-6 py-3 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition duration-200">
+                    <a href={demo} target="_blank" rel="noopener noreferrer">Preview</a>
+                  </button>
+                  <button className="w-1/2 px-6 py-3 bg-gray-800 text-white rounded-lg hover:bg-gray-700 transition duration-200">
+                    <a href={code} target="_blank" rel="noopener noreferrer">Code</a>
+                  </button>
+                </div>
+
+             
+                <div className="flex flex-wrap gap-2 mt-4">
+                  {skills.map((skill, index) => (
+                    <span
+                      key={index}
+                      className="text-sm bg-sky-100 text-sky-600 px-3 py-1 rounded-full hover:bg-sky-200 transition duration-300"
+                    >
+                      {skill}
+                    </span>
+                  ))}
+                </div>
               </div>
             </div>
           ))}
+
         </div>
       </div>
     </div>
