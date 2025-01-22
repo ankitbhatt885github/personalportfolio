@@ -49,7 +49,7 @@ const Home = () => {
                 to="portfolio"
                 smooth
                 duration={500}
-                className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-blue-600"
+                className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md  bg-gradient-to-b from-blue-400 to-blue-900"
               >
                 Portfolio
                 <span className="group-hover:rotate-90 duration-300">
@@ -61,7 +61,7 @@ const Home = () => {
               <a
                 href="/Resume_Ankit_2024.pdf" 
                 download="Ankit_Resume.pdf" 
-                className="inline-flex items-center px-6 py-3 font-semibold text-white bg-blue-600 hover:bg-blue-700 rounded-md shadow-lg transition-transform transform hover:scale-105"
+                className="inline-flex items-center px-6 py-3 font-semibold text-white bg-gradient-to-b from-blue-400 to-blue-900   rounded-md shadow-lg transition-transform transform hover:scale-105"
               >
                 <span>Download Resume</span>
               </a>

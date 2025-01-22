@@ -92,7 +92,7 @@ const Portfolio = () => {
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
           {portfolios.map(({ id, title, src, demo, code, skills }) => (
-            <div key={id} className="shadow-md shadow-sky-400 rounded-lg duration-200 hover:shadow-blue-500 bg-white overflow-hidden transform hover:shadow-xl">
+            <div key={id} className="shadow-md shadow-sky-400 rounded-lg duration-200 hover:shadow-blue-500  bg-gradient-to-t from-gray-400 to-gray-200 overflow-hidden transform hover:shadow-xl">
               <img
                 src={src}
                 alt=""
