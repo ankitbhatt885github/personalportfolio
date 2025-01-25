@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/personalportfolio/static/css/main.7adfa446.css",
+    "main.js": "/personalportfolio/static/js/main.6c3e662b.js",
+    "static/media/laptop-code.jpg": "/personalportfolio/static/media/laptop-code.7f7f813a8ef2d83ef5c5.jpg",
+    "static/media/code-screen.jpg": "/personalportfolio/static/media/code-screen.f4cb4acc86bc3d1e5c77.jpg",
+    "static/media/Main_Image.png": "/personalportfolio/static/media/Main_Image.743e9ac845a9691dc4c9.png",
+    "static/media/react.png": "/personalportfolio/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/seo.png": "/personalportfolio/static/media/seo.1015781cec3c2671f6d9.png",
+    "static/media/idea.png": "/personalportfolio/static/media/idea.681e5c1bbea51890d94f.png",
+    "static/media/html.png": "/personalportfolio/static/media/html.2ba4fabc69a89a8f71e6.png",
+    "static/media/tailwind.png": "/personalportfolio/static/media/tailwind.e47ac876b8d4d0bba47a.png",
+    "static/media/css.png": "/personalportfolio/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/javascript.png": "/personalportfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
+    "index.html": "/personalportfolio/index.html",
+    "main.7adfa446.css.map": "/personalportfolio/static/css/main.7adfa446.css.map",
+    "main.6c3e662b.js.map": "/personalportfolio/static/js/main.6c3e662b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7adfa446.css",
+    "static/js/main.6c3e662b.js"
+  ]
+}
